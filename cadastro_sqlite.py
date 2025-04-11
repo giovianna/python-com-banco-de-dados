@@ -13,7 +13,7 @@ curso TEXT
 """)
 
 nome = input('Digite o seu nome: ')
-idade =  input('Digite o sua idade: ')
+idade = input('Digite o sua idade: ')
 curso = input('Digite o seu curso: ')
 
 cursor.execute("INSERT INTO usuarios (nome, idade, curso) VALUES (?, ?, ?)", (nome, idade, curso))
